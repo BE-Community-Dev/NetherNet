@@ -2,7 +2,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](src/NetherNet/NetherNet.csproj)
 > [Chinese](readme_zh.md)
----
 A pure C# implementation of the NetherNet networking protocol for Minecraft Bedrock and real-time applications. This library provides peer-to-peer message transport over WebRTC data channels, with DTLS identity assertions, ICE negotiation, and pluggable HTTP or LAN signaling.
 This is a C# implementation of the NetherNet protocol.
 ---
