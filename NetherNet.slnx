@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NetherNet.Discovery/NetherNet.Discovery.csproj" />
+    <Project Path="src/NetherNet.Endpoint/NetherNet.Endpoint.csproj" />
+    <Project Path="src/NetherNet/NetherNet.csproj" />
+  </Folder>
+</Solution>

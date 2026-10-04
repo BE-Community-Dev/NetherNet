@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>NetherNet</AssemblyName>
+    <RootNamespace>NetherNet</RootNamespace>
+    <!-- NuGet package metadata (version is supplied by the release workflow) -->
+    <PackageId>ArkMirage.NetherNet</PackageId>
+    <Authors>BE-Community-Dev</Authors>
+    <Description>A pure C# implementation of the NetherNet networking protocol for Minecraft Bedrock and real-time applications, providing peer-to-peer message transport over WebRTC data channels.</Description>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageTags>nethernet;networking;webrtc;datachannel;ice;minecraft;bedrock</PackageTags>
+    <RepositoryUrl>https://github.com/BE-Community-Dev/NetherNet.git</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SIPSorcery" Version="10.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>NetherNet.Discovery</AssemblyName>
+    <RootNamespace>NetherNet.Discovery</RootNamespace>
+    <!-- NuGet package metadata (version is supplied by the release workflow) -->
+    <PackageId>ArkMirage.NetherNet.Discovery</PackageId>
+    <Authors>BE-Community-Dev</Authors>
+    <Description>LAN discovery signaling for NetherNet, broadcasting encrypted server information over UDP port 7551.</Description>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageTags>nethernet;networking;discovery;lan;udp;minecraft;bedrock</PackageTags>
+    <RepositoryUrl>https://github.com/BE-Community-Dev/NetherNet.git</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetherNet\NetherNet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

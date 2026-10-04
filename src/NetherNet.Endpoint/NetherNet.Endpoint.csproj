@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>NetherNet.Endpoint</AssemblyName>
+    <RootNamespace>NetherNet.Endpoint</RootNamespace>
+    <!-- NuGet package metadata (version is supplied by the release workflow) -->
+    <PackageId>ArkMirage.NetherNet.Endpoint</PackageId>
+    <Authors>BE-Community-Dev</Authors>
+    <Description>HTTP signaling endpoints for NetherNet, providing client and server implementations of the /v1/join handshake.</Description>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageTags>nethernet;networking;signaling;http;webrtc;minecraft;bedrock</PackageTags>
+    <RepositoryUrl>https://github.com/BE-Community-Dev/NetherNet.git</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetherNet\NetherNet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
